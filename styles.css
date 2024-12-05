@@ -1,0 +1,170 @@
+/*Shutterbug Bootstrap stylesheet */
+
+
+body {
+	background-color: powderblue;
+}
+
+div.container {
+	max-width: 1000px;
+
+}
+
+div.main {
+	background-image: url("../images/hero2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	padding-top: 5%;
+	padding-left: 0px;
+	min-height: 500px;
+}
+
+div.main h1{
+	font-family: "Slabo 13px", serif;
+	font-size: 300%;
+	font-weight: bold;
+	color: #2E4769;
+	text-shadow: powderblue 4px 3px 2px;
+	padding-left: 0px;
+}
+
+div.main h2 {
+	font-family: "Rubik", sans-serif;
+	font-size: 1.8em;
+	color: #2E4769;
+	text-shadow: gray 1.2px 1.2px 3px;
+	margin-bottom: 2%;
+}
+
+div.main a.btn{
+	background-color: springgreen;
+	color: white;
+	border-radius: 40px;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-shadow: 0 8px 16px 0 gray;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px gray;
+
+}
+
+div.main a.btn:hover {
+	background-color: white;
+	color: springgreen;
+	border: 1px solid lightgray;
+	font-weight: bold;
+	box-shadow: 0 8px 16px 0 gray;
+}
+
+div.section {
+	padding-top: 4%;
+}
+
+div.row h1 {
+	font-family: "Slabo 13px", serif;
+	font-size: 3em;
+}
+
+div.row p {
+	font-family: "Rubik", sans-serif;
+	font-size: 1.25em;
+}
+
+div#rightPic {
+	text-align: right;
+}
+
+div#store {
+	text-align: center;
+	font-family: "Rubik", sans-serif;
+	font-weight: bolder;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+
+div.footer {
+	background: skyblue;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+
+div.footer h1 {
+	font-size: 1.7em;
+	text-align: center;
+}
+
+div.footer ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: center;
+	font-size: 1.2em;
+	
+}
+
+div.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+div.footer a:hover{
+	background-color: springgreen;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+}
+
+
+
+/* Media queries for various screen sizes
+
+@media only screen and (min-width: 1500px) {
+	div.main { 
+		height: 600px;
+	} 
+}
+
+@media only screen and (max-width: 1024px) {
+	div.main h2 {
+		color: white;
+		margin-left: 50px;
+		height: 80px;
+	}
+
+	div.col-md-6 img, h1, p{ 
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	div.main a.btn {
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	div#rightPic {
+		text-align: left;
+	}
+}
+
+
+/* Media query for smaller screens
+@media only screen and (max-width: 600px) { 
+	div, h1, h2, p, a, img{ 
+		padding-top: 4%; 
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	div.main {
+		margin-bottom: 4%;
+		height: 300px;
+	}
+}
+*/
